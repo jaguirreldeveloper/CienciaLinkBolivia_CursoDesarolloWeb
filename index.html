@@ -1,84 +1,320 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Express - Bolivia</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="./img/icono.png"
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./img/icono.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
+    <header>
+      <nav>
+        <h1>..:: Travel Express ::..</h1>
+        <h2>- Bolivia -</h2>
+        <ul>
+          <li><a href="#Quienes-Somos">Quienes Somos</a></li>
+          <li><a href="#Servicios">Servicios</a></li>
+          <li><a href="#Ubicacion">Ubicación</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <header>
-    <nav>
-      <h1>..:: Travel Express ::..</h1>
-      <h2>- Bolivia -</h2>
-      <ul>
-        <li><a href="#Quienes-Somos">Quienes Somos</a></li>
-        <li><a href="#Servicios">Servicios</a></li>
-        <li><a href="#Ubicacion">Ubicación</a></li>
-        <li><a href="#Contacto">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- PRIMER CARRUSEL: Bolivia - ID ÚNICO: carruselBolivia -->
+<div id="carruselBolivia" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizQqaCboytd6Y7fb7uF8bLGzyds0CIij5bVkWnmJ8XMc-lf-V8jgYzQzwwsjdTRLVhjKdvADvDhkhtvAPEpQatyS2XcqSXRYqs8OS6i6PaUxl47UA4uCNpfB6x4ywF4EqTahvxgjuZulo/s1600/atractivos-turisticos-de-los-9-departamentos-casa-de-la-moneda.jpg"
+        class="d-block w-100"
+        alt="Casa de la Moneda - Potosí"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Potosí</h5>
+        <p>Casa de la Moneda</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpQRGvxvn_j1aEUc7pzngXPrGNRwvdCxjov5aL54H0kIvj3eAWs2stKdTWOEubeib5e_SB-kr9FV4Dw0WAQ87ZvPpMFGFW61wxfm5bvFtTnTO61o81LsIt0ik6mmjgrTDX4Oiihcu-Tgo/s1600/destinos-turisticos-de-cochabamba-parque-toro-toro.jpg"
+        class="d-block w-100"
+        alt="Parque Toro Toro - Cochabamba"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Cochabamba</h5>
+        <p>Parque Nacional Toro Toro</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTpzxQH_dzuoEYzqNQoyTqM87BtGXcQ3RA1ih1qsUmB6Kxvke6UGxzfrLONC-KW-lbUIQ5jmX1SHE3wr2vOgV0DCM02x4tPehaIAVlmYcx4BEDlJo-jDi_KZfWJbYgHDOpaeZSrW-RhXc/s1600/lugares-turisticos-de-bolivia-misiones-jesuiticas-de-la-chiquitania.JPG"
+        class="d-block w-100"
+        alt="Misiones Jesuíticas - Santa Cruz"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Santa Cruz</h5>
+        <p>Misiones Jesuíticas de la Chiquitania</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg8vBJDcTbWy1bhaMh5NMw9WcMxhdjDLdazdSPJtWlG74BEw30wfZgOkPNeAolhYGEueb3jaqkhlQNYbbCGzUf02kcI1PJPd6kRaBsXA8bHVJHDKQOirM0yFJXrJ2Ma1Wrz6zT2-8i3b0/s1600/lugares-turisticos-de-los-departamentos-tiahuanaco.jpg"
+        class="d-block w-100"
+        alt="Tiwanaku - La Paz"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>La Paz</h5>
+        <p>Ruinas de Tiwanaku</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVL5sWosVBI6pS5oOuBf3nZmp6sa4NAepAMB5nSKn413ApvM1XdPE21NsggHwUwJfNxdbve8EKyWkk5vGdckVhT1elE0SDlYWFQXIeI4uHp418PKTdw-3fyQgbcEUsGoZmUrXxICqWpp0/s1600/lugares-turisticos-de-los-nueve-departamentos-isla-del-sol.jpg"
+        class="d-block w-100"
+        alt="Isla del Sol - La Paz"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>La Paz</h5>
+        <p>Isla del Sol - Lago Titicaca</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-dWHFMtyKEtfad3RMQ0H-9_jSUrAQtq9b6bjUHzBz_YfyZ2XJKNgqsx4PzYqH-mqOllBur1iweVuGiTXuuHCLvnx6AVePcOHJO5RO5SRYLomDjCo-P8WQnnRA5hR7UvSlGxR4n1dQKKs/s1600/lugares-turisticos-de-santa-cruz-bolivia-fuerte-de-samaipata.jpg"
+        class="d-block w-100"
+        alt="Fuerte de Samaipata - Santa Cruz"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Santa Cruz</h5>
+        <p>Fuerte de Samaipata</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSazz9zOvqPhWXojkyBEHtlg85syGa6baJ_TCakb3EjTd1k7C_UxCjFzL_TfoS59v8JFHzprxGe846Zp4CjeRyjVzc_7iQdpMnaBoQ6uRhLRHc2ZGXSHuwUW8lr0G574koeh9w2mVMjlM/s1600/lugares-turisticos-del-beni-chalalan-parque-nacional-madidi.jpg"
+        class="d-block w-100"
+        alt="Chalalan - Beni"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Beni</h5>
+        <p>Chalalan - Parque Nacional Madidi</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuPe5JvzMiwJ3P-rbYLtdOjtejSGwd3MYWW8SwdRTBHs5zUVYqqgYZM9yB5KXJNI5_KHiFDg3LNrL5y5FxlsRZodi1TEJ0pTSseg4Vi3G0pL6lYK3CBX5z_tenUWAVyeYpkEuPV_V3qp4/s1600/lugares-turisticos-Salar-de-Uyuni.jpg"
+        class="d-block w-100"
+        alt="Salar de Uyuni - Potosí"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Potosí</h5>
+        <p>Salar de Uyuni</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqNEpf_nVBTzg9ainLpaWAkP7ky7CdLyqAqKFGj2iUi0UhxofrR5z2pvwUKcL7Om6n1zw3NDLM-7OlHSQY8JRM3-Q_f1NT9i0j10iAIyfFIy74tHupsavgIKHwUUCg0ndIEv74RuWCwfs/s1600/sitios-turisticos-de-bolivia-cristo-de-la-concordia.jpg"
+        class="d-block w-100"
+        alt="Cristo de la Concordia - Cochabamba"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Cochabamba</h5>
+        <p>Cristo de la Concordia</p>
+      </div>
+    </div>
+  </div>
+  
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carruselBolivia"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carruselBolivia"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
 
-  <main>
-    <section id="Quienes-Somos">
-      <h3>Quiénes Somos</h3>
-        <p>Somos un emprendimiento innovador dedicado al servicio de transporte terrestre nacional e internacional.<br>
-        Nuestro compromiso es mejorar la calidad de nuestro servicio hacia nuestros usuarios, brindando responsabilidad y seguridad.</p>
-    </section>
-    <section id="Servicios">
-      <h3>Servicios</h3>
-      <h4>Transporte Nacional:</h4>
+    <main>
+      <section id="Quienes-Somos">
+        <h3>Quiénes Somos</h3>
         <p>
-          Departamento de La Paz<br>
-          Departamento de Oruro<br>
-          Departamento de Potosí<br>
-          Departamento de Cochabamba<br>
-          Departamento de Chuquisaca<br>
-          Departamento de Tarija<br>
-          Departamento de Pando<br>
-          Departamento de Beni<br>
-          Departamento de Santa Cruz<br>
+          Somos un emprendimiento innovador dedicado al servicio de transporte
+          terrestre nacional e internacional.<br />
+          Nuestro compromiso es mejorar la calidad de nuestro servicio hacia
+          nuestros usuarios, brindando responsabilidad y seguridad.
         </p>
-      <h4>Transporte Internacional:</h4>
+      </section>
+      <section id="Servicios">
+        <h3>Servicios</h3>
+        <h4>Transporte Nacional:</h4>
         <p>
-          República de Argentina<br>
-          República de Brasil<br>
-          República de Chile<br>
-          República de Perú<br>
-          República de Paraguay<br>
+          Departamento de La Paz<br />
+          Departamento de Oruro<br />
+          Departamento de Potosí<br />
+          Departamento de Cochabamba<br />
+          Departamento de Chuquisaca<br />
+          Departamento de Tarija<br />
+          Departamento de Pando<br />
+          Departamento de Beni<br />
+          Departamento de Santa Cruz<br />
+        </p>
+        <h4>Transporte Internacional:</h4>
+        <p>
+          República de Argentina<br />
+          República de Brasil<br />
+          República de Chile<br />
+          República de Perú<br />
+          República de Paraguay<br />
         </p>
         <h4>Envio de Encomiendas:</h4>
         <p>
-          Nacional<br>
-          Departamental<br>
-          Interdepartamental<br>
+          Nacional<br />
+          Departamental<br />
+          Interdepartamental<br />
         </p>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <footer>
-    <section id="Ubicacion">
-      <h3>Ubicación</h3>
-      <p>Avenida Cristo Redentor (Av. Banzer)<br>
-      Santa Cruz, Bolivia</p>
-    </section>
-    <section id="Contacto">
-      <h3>Contacto</h3>
-      <p>Email: contacto@travel-express.com<br>
-      Teléfono: +591-73570729</p>
-    </section>
-    <section>
-      <p>..:: Travel Express - Bolivia ::..</p>
-      <p>Copyright © 2025 - 2026 | Todos los derechos Reservados. </p>
-      <p>Queda prohibida la reproducción, distribución, comunicación pública y utilización total o parcial del contenido del sitio web, en cualquier forma o modalidad, sin previa autorización expresa y escrita.</p>
-      <p>Site Web Developed By: ..:: jaguirrel.developer@gmail.com ::..</p>
-    </section>
-  </footer>
+    <!-- SEGUNDO CARRUSEL: Internacional - ID ÚNICO: carruselInternacional -->
+    <div
+      id="carruselInternacional"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/nhu6ixgevkwoejosml0s"
+            class="d-block w-100"
+            alt="Cristo Redentor - Brasil"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Brasil</h5>
+            <p>Cristo Redentor - Río de Janeiro</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://realestatemarket.com.mx/images/2020/08_Agosto/1808/brasil_reabre_sus_principales_sitios_turisticos_1.jpg"
+            class="d-block w-100"
+            alt="Brasil"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Brasil</h5>
+            <p>Playas de Brasil</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/kjbidlyl2dyzabndv3w2"
+            class="d-block w-100"
+            alt="Chile"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Chile</h5>
+            <p>Desierto de Atacama</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://freewalkingtoursperu.com/wp-content/uploads/2024/02/top-20-lugares-turisticos-del-peru_7-1.webp"
+            class="d-block w-100"
+            alt="Perú"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Perú</h5>
+            <p>Machu Picchu</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://asuncion.live/wp-content/uploads/2021/10/palacio-1.jpg"
+            class="d-block w-100"
+            alt="Paraguay"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Paraguay</h5>
+            <p>Palacio de López - Asunción</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carruselInternacional"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carruselInternacional"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
 
-</body>
+    <footer>
+      <section id="Ubicacion">
+        <h3>Ubicación</h3>
+        <p>
+          Avenida Cristo Redentor (Av. Banzer)<br />
+          Santa Cruz, Bolivia
+        </p>
+      </section>
+      <section id="Contacto">
+        <h3>Contacto</h3>
+        <p>
+          Email: contacto@travel-express.com<br />
+          Teléfono: +591-73570729
+        </p>
+      </section>
+      <section>
+        <p>..:: Travel Express - Bolivia ::..</p>
+        <p>Copyright © 2025 - 2026 | Todos los derechos Reservados.</p>
+        <p>
+          Queda prohibida la reproducción, distribución, comunicación pública y
+          utilización total o parcial del contenido del sitio web, en cualquier
+          forma o modalidad, sin previa autorización expresa y escrita.
+        </p>
+        <p>Site Web Developed By: ..:: jaguirrel.developer@gmail.com ::..</p>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
