@@ -96,3 +96,26 @@ footer section {
   font-size: 1rem;
   color: #aaa;
 }
+
+/* Mejorar legibilidad de los títulos del segundo carrusel */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente */
+    border-radius: 10px;
+    padding: 15px 20px;
+    bottom: 30px; /* Un poco más arriba del borde */
+}
+
+.carousel-caption h5 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mayor contraste */
+    margin-bottom: 5px;
+}
+
+.carousel-caption p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+}
