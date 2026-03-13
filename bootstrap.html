@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <header class="container-fluid bg-primary py-4 mb-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 text-center">
+            <h1 class="text-white mb-0">Pagina Bootstrap</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+      <!-- Contenedor Principal -->
+      <div class="container mt-3">
+        <!-- Contenedor: # 01 -->
+        <div class="container">
+          <!-- Fila: Title Container  -->
+          <div class="row g-0 py-2">
+            <h4>Grilla de Bootstrap</h4>
+          </div>
+        </div>
+        <!-- Contenedor: # 02 -->
+        <div class="container">
+          <!-- Fila 1: 3 columnas: 4, 4 y 4 -->
+          <div class="row g-0">
+          <!-- Columna 1: 4 espacios - Color primario (azul) -->
+          <div class="col-12 col-sm-4 col-md-4">
+            <div class="border text-center bg-primary text-white">
+              <h3>col</h3>
+            </div>
+          </div>
+          <!-- Columna 2: 4 espacios - Color plomo (gris) -->
+          <div class="col-12 col-sm-4 col-md-4">
+            <div class="border text-center bg-secondary text-white">
+              <h3>col</h3>
+            </div>
+          </div>
+          <!-- Columna 3: 4 espacios - Color verde -->
+          <div class="col-12 col-sm-4 col-md-4">
+            <div class="border text-center bg-success text-white">
+              <h3>col</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fila 2: 2 columnas: 4 y 8 -->
+        <div class="row g-0">
+          <!-- Columna 1: 4 espacios - Color primario (azul) -->
+          <div class="col-12 col-sm-4 col-md-4">
+            <div class="border text-center" style="background-color: #e6f3ff; color: #333;">
+              <h3>col-4</h3>
+            </div>
+          </div>
+          <!-- Columna 2: 8 espacios - Color plomo (gris) -->
+          <div class="col-12 col-sm-8 col-md-8">
+            <div class="border text-center" style="background-color: #f0f0f0; color: #333;">
+              <h3>col-8</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fila 3: 2 columnas: 6 y 6 -->
+        <div class="row g-0">
+          <!-- Columna 1: 6 espacios - Color primario (azul) -->
+          <div class="col-12 col-sm-6 col-md-6">
+            <div class="border text-center" style="background-color: #66bb6a; color: #1e3a2e;">
+              <h3>col-6</h3>
+            </div>
+          </div>
+          <!-- Columna 2: 6 espacios - Color plomo (gris) -->
+          <div class="col-12 col-sm-6 col-md-6">
+            <div class="border text-center" style="background-color: #ef5350; color: #1e3a2e;">
+              <h3>col-6</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fila 4: 3 columnas: 3, 6 y 3 -->
+        <div class="row g-0">
+            <!-- Columna 1: 3 espacios - Color: Amarillo -->
+            <div class="col-12 col-sm-3 col-md-3">
+                <div class="border text-center" style="background-color: #fff9c4; color: #856404;">
+                    <h3>col-3</h3>
+                </div>
+            </div>
+            <!-- Columna 2: 6 espacios - Color: Celeste -->
+            <div class="col-12 col-sm-6 col-md-6">
+                <div class="border text-center" style="background-color: #b3e5fc; color: #01579b;">
+                    <h3>col-6</h3>
+                </div>
+            </div>
+            <!-- Columna 3: 3 espacios - Color: Medio blanco -->
+            <div class="col-12 col-sm-3 col-md-3">
+                <div class="border text-center" style="background-color: #f5f5f5; color: #333333;">
+                    <h3>col-3</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Contenedor: # 03 -->
+        <div class="container">
+          <!-- Fila: Title Container  -->
+          <div class="row g-0 py-2">
+            <h4>Componentes de Bootstrap</h4>
+          </div>
+        </div>
+        <!-- Contenedor: # 04 -->
+        <div class="container"> 
+
+        <!-- Fila principal para los componentes -->
+        <div class="row">
+          <!-- Columna izquierda para el Carrusel (3 espacios) -->
+          <div class="col-md-3 border">
+            <!-- Título del Carrusel -->
+            <div class="row g-0 py-1">
+              <h6>Componente Carousel</h6>
+            </div>
+            <!-- Carrusel -->
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner border rounded">
+                <div class="carousel-item active">
+                  <img src="https://imgs.search.brave.com/rhBIFqNbq3LsPwpRrjeaCoYZIRLfZi_HuZ-TDOCV6RM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wNC53/YWxscGFwZXJiZXR0/ZXIuY29tL3dhbGxw/YXBlci84NDMvMzU4/LzU2NS9iYWNrbGl0/LWNsb3Vkcy1jb25z/dGVsbGF0aW9uLWRh/cmstd2FsbHBhcGVy/LXByZXZpZXcuanBn" class="d-block w-100" style="height:500px; object-fit:cover" alt="Imagen 1"/>
+                </div>
+                <!-- Item 1 -->
+                <div class="carousel-item">
+                  <img src="https://imgs.search.brave.com/p23BfIPrkn7LCufZO4rTTNbRbvVlkZmULA489s8pf2o/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzkv/MTczLzc2MC9zbWFs/bC9zdGFycy1pbi1u/aWdodC1za3ktb3Zl/ci10aGUtcGluZS10/cmVlcy1waG90by5q/cGc" class="d-block w-100" style="height:500px; object-fit:cover" alt="Imagen 2"/>
+                </div>
+                <!-- Item 2 -->
+                <div class="carousel-item">
+                  <img src="https://imgs.search.brave.com/J4dVacX8_tjk3K4HRvo4hc2uBxJEtbHIp7_-x6fIHUk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wNC53/YWxscGFwZXJiZXR0/ZXIuY29tL3dhbGxw/YXBlci85OC83MDMv/NjEzL2FzdHJvbm9t/eS1iYWNrbGl0LWJl/YXV0aWZ1bC1jb25z/dGVsbGF0aW9uLXdh/bGxwYXBlci1wcmV2/aWV3LmpwZw" class="d-block w-100" style="height:500px; object-fit:cover" alt="Imagen 3"/>
+                </div>
+                <!-- Item 3 -->
+                <div class="carousel-item">
+                  <img src="https://imgs.search.brave.com/JhEerntcimy2TPWZUaYwcMYBfNL2FdFfwp4MnK5KGRQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/c2lsdWV0YXMtYXJi/b2xlcy1jaWVsby1l/c3RyZWxsYWRvLW5v/Y2hlXzE4MTYyNC0x/ODc0MC5qcGc_c2Vt/dD1haXNfaHlicmlk/Jnc9NzQw" class="d-block w-100" style="height:500px; object-fit:cover" alt="Imagen 4"/>
+                </div>
+                <!-- Item 4 -->
+                <div class="carousel-item">
+                  <img src="https://imgs.search.brave.com/r_EC83OPMNOUuIH1-Xs20gWu85JzQIW4JdMDueTO_8A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMDUv/NjA1LzA2Ny9zbWFs/bC9taWxreS13YXkt/c3RhcnMtd2l0aC1t/b29ubGlnaHQtcGhv/dG8uanBn" class="d-block w-100" style="height:500px; object-fit:cover" alt="Imagen 5"/>
+                </div>
+                <!-- Item 5 -->
+                <div class="carousel-item">
+                  <img src="https://imgs.search.brave.com/yi5_Sbddl6fWCE48PbX_wdcMdroKyGys0eont6zn0Zg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM4/ODAwMzE4MS9lcy9m/b3RvL3NpbGhvdWV0/dGUtdHJlZXMtYWdh/aW5zdC1za3ktYXQt/bmlnaHQuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPUZfOW5X/Y1lBNHVkQnFqLUlh/dnlwem5XdEo4V19P/YldWWjl4UTZGaUIz/Tms9" class="d-block w-100" style="height:500px; object-fit:cover" alt="Imagen 6"/>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+          </div>
+          <!-- Columna derecha para el Acordeón (9 espacios) -->
+          <div class="col-md-9 border">
+            <!-- Título del Acordeón -->
+            <div class="row g-0 py-1">
+              <h6>Componente Accordion</h6>
+            </div>
+            <!-- Acordeón -->
+            <div class="accordion border rounded" id="accordionExample">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Descripción Imagen 1 - Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Noches Estrelladas en Japón.</strong> Las noches en el Japón antiguo estaban marcadas por la oscuridad natural, iluminadas apenas por faroles de papel (chochin) y velas, creando una atmósfera misteriosa y serena. Las actividades nocturnas giraban en torno a festivales estacionales (obon), la contemplación de la luna, el teatro tradicional y el descanso temprano, con una fuerte conexión espiritual.
+              </div>
+            </div>
+          </div>    
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Descripción Imagen 2 - Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Noches Estrelladas en Japón.</strong> Las noches en el Japón antiguo estaban marcadas por la oscuridad natural, iluminadas apenas por faroles de papel (chochin) y velas, creando una atmósfera misteriosa y serena. Las actividades nocturnas giraban en torno a festivales estacionales (obon), la contemplación de la luna, el teatro tradicional y el descanso temprano, con una fuerte conexión espiritual.
+              </div>
+            </div>
+          </div>    
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Descripción Imagen 3 - Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Noches Estrelladas en Japón.</strong> Las noches en el Japón antiguo estaban marcadas por la oscuridad natural, iluminadas apenas por faroles de papel (chochin) y velas, creando una atmósfera misteriosa y serena. Las actividades nocturnas giraban en torno a festivales estacionales (obon), la contemplación de la luna, el teatro tradicional y el descanso temprano, con una fuerte conexión espiritual.
+              </div>
+            </div>
+          </div>    
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Descripción Imagen 4 - Accordion Item #4
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Noches Estrelladas en Japón.</strong> Las noches en el Japón antiguo estaban marcadas por la oscuridad natural, iluminadas apenas por faroles de papel (chochin) y velas, creando una atmósfera misteriosa y serena. Las actividades nocturnas giraban en torno a festivales estacionales (obon), la contemplación de la luna, el teatro tradicional y el descanso temprano, con una fuerte conexión espiritual.
+              </div>
+            </div>
+          </div>    
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Descripción Imagen 5 - Accordion Item #5
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Noches Estrelladas en Japón.</strong> Las noches en el Japón antiguo estaban marcadas por la oscuridad natural, iluminadas apenas por faroles de papel (chochin) y velas, creando una atmósfera misteriosa y serena. Las actividades nocturnas giraban en torno a festivales estacionales (obon), la contemplación de la luna, el teatro tradicional y el descanso temprano, con una fuerte conexión espiritual.
+              </div>
+            </div>
+          </div>    
+          <!-- Item 6 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Descripción Imagen 6 - Accordion Item #6
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Noches Estrelladas en Japón.</strong> Las noches en el Japón antiguo estaban marcadas por la oscuridad natural, iluminadas apenas por faroles de papel (chochin) y velas, creando una atmósfera misteriosa y serena. Las actividades nocturnas giraban en torno a festivales estacionales (obon), la contemplación de la luna, el teatro tradicional y el descanso temprano, con una fuerte conexión espiritual.
+              </div>
+            </div>
+          </div>
+            </div>
+        </div>
+      </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-3">
+      <!-- Línea superior (más clara) -->
+      <hr class="m-0 p-0 border border-secondary border-1 opacity-25"> 
+      <!-- Contenedor: Footer -->
+      <div class="container-fluid p-0">
+        <!-- Fila: Footer -->
+        <div class="row g-0 align-items-center min-vh-10">
+          <!-- Columna 1: Copyright -->
+          <div class="col-auto">
+            <div class="text-start p-3">
+              <h5 class="text-secondary mb-0">© 2025 CienciaLink Bolivia</h5>
+            </div>
+          </div>
+          <!-- Columna 2: Logo -->
+          <div class="col text-center">
+            <div class="p-3">
+              <img src="https://scontent.fcbb1-2.fna.fbcdn.net/v/t39.30808-6/468564389_122109188930614162_3295938943326546785_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=gyXfid5je0sQ7kNvwHVfZP1&_nc_oc=AdlSW0k6x__Es98_5rX5di5XoUUNlMIhSv2u7kMpUC8xuN9oQgzcfM1O2LOjA93hgUQ&_nc_zt=23&_nc_ht=scontent.fcbb1-2.fna&_nc_gid=8Ek3GVXnaQmLv8PXNOW1jw&_nc_ss=8&oh=00_AfyJI5kgv33JKuVd8IJTTqk5qI_L1XLPUnN7SAGUYsBnIA&oe=69BA447D" height="50" alt="Ciencialink Bolivia">
+            </div>
+          </div>
+          <!-- Columna 3: Enlaces -->
+          <div class="col-auto">
+            <div class="p-3">
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#" class="text-secondary text-decoration-none">Home</a>
+                <a href="#" class="text-secondary text-decoration-none">Features</a>
+                <a href="#" class="text-secondary text-decoration-none">Pricing</a>
+                <a href="#" class="text-secondary text-decoration-none">FAQs</a>
+                <a href="#" class="text-secondary text-decoration-none">About</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Línea inferior (más oscura) -->
+      <hr class="m-0 p-0 border border-dark border-1 opacity-50">      
+      <!-- Espacio adicional hacia abajo para ver mejor las líneas. -->
+      <div class="container-fluid bg-light py-5">
+      <div class="row">
+        <div class="col-12 text-center text-muted">
+          <!-- Espacio sin ningun caracter -->
+        </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
